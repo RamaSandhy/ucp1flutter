@@ -71,3 +71,10 @@ class LoginPage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(30),
                       border: Border.all(color: Colors.grey.shade300),
                    ),
+                    child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 15),
+                        child: Row(
+                          children: [
+                            const Icon(Icons.email_outlined, color: Colors.grey),
+                            const SizedBox(width: 10),
+                            Expanded(
