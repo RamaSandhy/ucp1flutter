@@ -53,3 +53,15 @@ class LoginPage extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: 40),
+
+                 Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text(
+                      'Email',
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                    const SizedBox(height: 10),
