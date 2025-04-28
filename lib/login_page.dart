@@ -31,3 +31,12 @@ class LoginPage extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 20),
+
+                    SizedBox(
+                      height: 60,
+                      width: 80,
+                      child: CustomPaint(
+                        painter: TrianglePainter(),
+                      ),
+                    ),
+                    const SizedBox(height: 30),
