@@ -40,3 +40,16 @@ class LoginPage extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 30),
+
+                     const Text(
+                      'SELAMAT DATANG KEMBALI',
+                      style: TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black87,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 40),
