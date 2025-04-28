@@ -22,3 +22,9 @@ class LoginPage extends StatelessWidget {
               children: [
                 Column(
                   children: [
+                     Container(
+                      width: 50,
+                      height: 50,
+                      decoration: const BoxDecoration(
+                        color: Colors.black,
+                        shape: BoxShape.circle,
