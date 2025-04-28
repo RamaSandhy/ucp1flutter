@@ -78,3 +78,19 @@ class LoginPage extends StatelessWidget {
                             const Icon(Icons.email_outlined, color: Colors.grey),
                             const SizedBox(width: 10),
                             Expanded(
+                               child: TextField(
+                                controller: _emailController,
+                                keyboardType: TextInputType.emailAddress,
+                                decoration: const InputDecoration(
+                                  hintText: 'Email',
+                                  border: InputBorder.none,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 25),
